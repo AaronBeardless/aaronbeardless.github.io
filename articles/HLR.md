@@ -1,4 +1,4 @@
-<img title="" src="file:///D:/Projects/aaronbeardless.github.io/articles/hlr-content/hlr-header.png" alt="hlr-header.png" width="665" data-align="center">
+<img title="" src="hlr-content/hlr-header.png" alt="hlr-header.png" width="665" data-align="center">
 
 ---
 
@@ -20,19 +20,19 @@ I worked on both creating original models, as well as remastering existing model
 
 **Console**
 
-![](I:\THA%20Interview%20Resourcen\Hlr\console.png)
+![](hlr-content/console.png)
 
 A prop used in the very beginning of the game. The screens are replaced in-engine with an interactable UI.
 
 **Door**
 
-![door.png](D:\Projects\aaronbeardless.github.io\articles\hlr-content\door.png)
+![door.png](hlr-content/door.png)
 
 Animated and interactable in-game.
 
 **Painters Tools**
 
-![](D:\Projects\aaronbeardless.github.io\articles\hlr-content\paint.png)
+![](hlr-content/paint.png)
 
 A set of painters tools to decorate the abandoned scaffholdings in City 17.
 
@@ -40,13 +40,13 @@ A set of painters tools to decorate the abandoned scaffholdings in City 17.
 
 **Bottles**
 
-![](D:\Projects\aaronbeardless.github.io\articles\hlr-content\bottles.png)
+![](hlr-content/bottles.png)
 
 We decided that the old bottle models in Half-Life 2 could use a refresh, which is why I went ahead and created a new bottle model with 4 variations - fully destructible.
 
 **Container**
 
-![](D:\Projects\aaronbeardless.github.io\articles\hlr-content\container-comparison.png)
+![](hlr-content/container-comparison.png)
 
 As we knew the player was going to be spending a lot of time near harbors and industrial yards, the old container model from 2004 was simply no longer going to cut it. Here you can see an in-engine comparison of the old 2004 model and my remastered version. I think it's quite apparent that we stuck to the same style but moved the technology forward a bit.
 
