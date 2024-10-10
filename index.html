@@ -1,67 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+<html lang="de">
+  <head>
+    <title>Aaron Kerker</title>
+    <link rel="stylesheet" href="content/css/index.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>@-ms-viewport { width: device-width; }</style>
 </head>
 <body>
-    <div class="container">
-        <div class="left-section">
-            <div class="profile">
-                <img src="img/ak_photo.png" class="profile-picture"></img>
-                <h1>AARON KERKER</h1>
-                <p>Aspiring Game-Developer</p>
-            </div>
-            <div class="contact">
-                <hr>
-                <h2>CONTACT</h2>
-                <p>aaron.kerker <br> <b>@ (at)</b> <br> mindlesssoftware.de</p>
-                <h3>OR</h3>
-                <p>abeardless <br> <b>@ (at)</b> <br> gmx.net</p>
-                <hr>
-                <h3>Find me here</h3>
-                <a href="https://www.youtube.com/@aaronkerker" class="contact-link">YouTube</a>
-                <br>
-                <a href="https://www.instagram.com/trulybeardless/" class="contact-link">Instagram</a>
-                <br>
-                <a href="https://www.threads.net/@trulybeardless" class="contact-link">Threads</a>
-                <br>
-                <a href="https://github.com/AaronBeardless" class="contact-link">GitHub</a>
-            </div>
+  <div class="content">
+    <div class="header"></div>
+    <div class="lander">
+      <div class="lander-left">
+        <img class="logo" src="content/img/lander/AK_Logo_White_Transparent.png" alt="">
+        <h1>AARON KERKER</h1>
+        <!--Found on codepen (https://codepen.io/aldrie/pen/PojGYLo)-->
+        <div class="stack" style="--stacks: 3;">
+          <span class="changing-text" style="--index: 0;"> // GENERALIST</span>
+          <span class="changing-text" style="--index: 1;"> // GENERALIST</span>
+          <span class="changing-text" style="--index: 2;"> // GENERALIST</span>
+          <span class="changing-text" style="--index: 3;"> // GENERALIST</span>
+          <span class="changing-text" style="--index: 4;"> // GENERALIST</span>
         </div>
-        <div class="right-section">
-            <div class="about">
-                <h1>ABOUT ME</h1>
-                <p>Hi! I'm Aaron, a 17-year-old aspiring game developer from Germany. <br> I've been developing games since I was 7 years old — sort of. Through game development, I've come into contact with many areas of art: programming, 3D modeling, texturing, level design, game design, sound design, and music composition. <br> I've been exploring all these areas as much as my time allows, and due to my curiosity about all these topics, I've become somewhat of a generalist. <i>This means I know enough about most things to do them, but not enough to do them professionally.</i> <br> Still, I haven't been sitting around! So, please enjoy a few select projects that I've been a part of—or made myself—below. <br> <b>Thank you for visiting my little corner of the web, have fun!</b></p>
-            </div>
-            <div class="portfolio">
-                <hr>
-                <h2>PORTFOLIO</h2>
-                <div class="albums">
-                    <div class="album">
-                        <a href="https://www.youtube.com/playlist?list=PLWTMPI05ar-t1NBpnYM4tdNtbrQb9-KzH"><img src="img/Into the Dungeon - Album Cover.png" class="album-image"></img></a>
-                        <h2 class="album-title">Into the Dungeon</h2>
-                        <p class="album-info">Music / Soundtrack</p>
-                        <p class="album-description">Into the Dungeon is a collection of music that I originally improvised for a D&D campaign. I have taken these initial improvisations and re-written them to be a bit more sophisticated. <br> You'll find everything here: Character Themes, Exploration Music, Battle Music, and much more. <br> <b>ENJOY!</b></p>
-                        <p class="album-info">NEW RELEASE EVERY FRIDAY</p>
-                    </div>
-                    <div class="album">
-                        <a href="https://aaronbeardless.github.io/ColorConvert"><img src="img/Color Convert.png" class="album-image"></img></a>
-                        <h2 class="album-title">Color Convert</h2>
-                        <p class="album-info">Misc / Tools</p>
-                        <p class="album-description">Color Convert came to be out of the need to constantly convert RGB colours in a 0-255 scale to a 0-1 float scale for IMGUI. That's why I decided to write this quick web-gui to make exactly that conversion easier. Sure... I could have built the functionality in code, but this seemed like the better option at the time. <br> Oh well...</p>
-                    </div>
-                    <div class="album">
-                        <a href="articles/HLR.html"><img src="articles/hlr-content/hlr-header.png" class="album-image"></img></a>
-                        <h2 class="album-title">Half-Life: Reflection Props</h2>
-                        <p class="album-info">Game-Dev / 3d Art</p>
-                        <p class="album-description">Half-Life: Reflection is a standalone Half-Life 2: Episode 2 mod based on mapbase for which i contributed a couple of props.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
+      <div class="lander-right">
+      </div>
     </div>
+    <div class="contact"></div>
+    <div class="copyright">
+      Powered by GitHub Pages
+    </div>
+  </div>
+  <script src="content/js/content.js"></script>
+  <script src="content/js/index.js"></script>
 </body>
-</html>
