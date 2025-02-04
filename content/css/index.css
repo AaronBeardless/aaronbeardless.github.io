@@ -132,6 +132,7 @@ body {
 .lander-right
 {
   overflow: hidden;
+  background-color: black;
   background-image: url(../img/lander/Profile_Picture.png);
   background-size: cover;
   background-position: center center;

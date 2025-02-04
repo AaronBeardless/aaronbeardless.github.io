@@ -1,5 +1,5 @@
 {
-  const words = ["GAME-DEVELOPMENT", "MUSIC", "3D ART", "WEB-DESIGN", "SOFTWARE-DEVELOPMENT"];
+  const words = ["GAME-DEVELOPMENT", "MUSIC", "3D ART", "GENERALIST", "SOFTWARE-DEVELOPMENT"];
   let currentIndex = 0;
 
   function changeText() {
